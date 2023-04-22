@@ -1,0 +1,6 @@
+git init                      //创建仓库 
+git add .                     //将该文件夹下所有文件添加到暂存区、或者具体文件名
+git commit -m "版本备注说明"  //提交至仓库
+git log                       //查看信息 ,如ID
+git checkout HEAD 文件名      //恢复该文件到上一次提交的状态
+git reset --hard commitID     //恢复到该ID下的状态
