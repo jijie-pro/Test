@@ -5,3 +5,8 @@ git commit -m "版本备注说明"  //提交至仓库
 git log                       //查看信息 ,如ID
 git checkout HEAD 文件名      //恢复该文件到上一次提交的状态
 git reset --hard commitID     //恢复到该ID下的状态
+
+
+git branch -M main  //上传到 main 分支
+git remote add origin https://github.com/xxxxx/test.git            //和远程仓库连接,xxxxx为自己的GitHub名，test 为仓库名
+git push -u origin main 将本地项目推送到远程仓库
